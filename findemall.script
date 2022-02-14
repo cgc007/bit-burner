@@ -1,0 +1,86 @@
+var targets = ["home"];
+var botnettarget = "the-hub";
+var maxhackableports = 5;
+var wormscript = args[0];
+if (isRunning("target-status.script","home")) {
+	scriptkill("target-status.script","home");
+}
+exec("target-status.script","home",1,botnettarget);
+// Iterate through the target list - just 'home' to start, but we'll add more as we find them. 
+for (var i = 0; i < targets.length; i++) {
+
+	var server = targets[i];
+	var postscript = "";
+	if (hasRootAccess(server) == false) {
+		//this tree here instead of in the next logic gate should ensure that if we upgrade during a run of the script it'll handle it
+		if (fileExists("BruteSSH.exe", "home")) {
+			brutessh(server);
+			maxhackableports = 1;
+			if (fileExists("FTPCrack.exe", "home")) {
+				ftpcrack(server);
+				maxhackableports = 2;
+				if (fileExists("relaySMTP.exe", "home")) {
+					relaysmtp(server);
+					maxhackableports = 3;
+					if (fileExists("HTTPWorm.exe", "home")) {
+						httpworm(server);
+						maxhackableports = 4;
+						if (fileExists("SQLInject.exe", "home")) {
+							sqlinject(server);
+							maxhackableports = 5;
+						}
+					}
+				}
+			}
+		}
+		if (getServerNumPortsRequired(server) <= maxhackableports) {
+
+			nuke(server);
+
+		} else {
+			postscript = "No Root Access."
+		}
+	}
+	if (server != "home") {
+		if (hasRootAccess(server)) {
+			scp(wormscript, "home", server);
+			var numThreads = Math.floor(getServerMaxRam(server) / getScriptRam(wormscript));
+
+			if (numThreads > 0) {
+				if (isRunning(wormscript, server, botnettarget) == false) {
+					killall(server);
+					exec(wormscript, server, numThreads, botnettarget);
+					postscript = "Exec-" + wormscript + "[" + server + "]x" + numThreads + " ->" + botnettarget;
+				} else {
+					postscript = "Script is running.";
+				}
+			} else {
+				postscript = "Not enough ram on server for " + wormscript;
+			}
+
+		}
+	} else { //this is our home server post script comment
+		postscript = botnettarget + " is the targetted server."
+	}
+
+
+	var formatServerName = server;
+	var len = formatServerName.length;
+	for (len; len < 20; len++) {
+		formatServerName = formatServerName + " ";
+	}
+
+	// Scan for more targets. 
+	tprint("Scanning " + formatServerName + "\t\t[P:" + getServerNumPortsRequired(server) + "]\t[H:" + getServerRequiredHackingLevel(server) + "]\t[S:" + Math.round(getServerSecurityLevel(server) - (getServerMinSecurityLevel(server) + 5)) + "]\t[" + nFormat(getServerMoneyAvailable(server), '($ 0.00 a)') + "/" + nFormat(getServerMaxMoney(server), '($ 0.00 a)') + " " + nFormat(getServerMoneyAvailable(server) / getServerMaxMoney(server), '0%') + "]:\t " + postscript);
+	var newscan = scan(server);
+	// Check if they are on the list.
+	for (var n = 0; n < newscan.length; n++) {
+		if (targets.indexOf(newscan[n]) == -1) {
+			// Not on the list. Add to the list
+			targets.push(newscan[n]);
+			//          tprint(newscan[n] + " added")
+		}
+	}
+
+}
+tprint("Spider complete.");

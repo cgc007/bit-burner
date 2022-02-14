@@ -1,0 +1,11 @@
+/** @param {NS} ns **/
+export async function main(ns) {
+    var target = ns.args[0];
+    while(true) {
+        /**if (ns.getServerSecurityLevel(target) > securityThresh) {
+            await ns.weaken(target);
+        } else {**/
+            await ns.hack(target);
+        //}
+    }
+}

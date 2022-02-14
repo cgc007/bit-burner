@@ -1,0 +1,20 @@
+/** @param {NS} ns **/
+async function scanServers() {//Puts all unique servers into serverList
+	serverList = ns.scan("home"); let serverCount = [serverList.length, 0]; let depth = 0; let checked = 0; let scanIndex = 0;
+	while (scanIndex <= serverCount[depth] - 1) {
+		let results = ns.scan(serverList[checked]); checked++;
+		for (let i = 0; i <= results.length - 1; i++) {
+			if (results[i] != "home" && !serverList.includes(results[i])) {
+				temp = ns.getPurchasedServers().includes(results[i])
+				if (temp && pServers || !temp) {//If the server is player owned and they allowed, or if it's not player owned
+					serverList.push(results[i]); serverCount[depth + 1]++
+				}
+			}
+		}
+		if (scanIndex == serverCount[depth] - 1) { scanIndex = 0; depth++; serverCount.push(0) } else { scanIndex++ };
+	}
+}
+
+export async function main(ns) {
+	await scanServers();
+}

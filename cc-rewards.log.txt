@@ -1,0 +1,335 @@
+codingcontract.attempt: Successfully completed Coding Contract 'contract-367339-TianDiHui.cct'. Reward: Gained 25000 faction reputation for Tian Di Hui
+codingcontract.attempt: Successfully completed Coding Contract 'contract-797170-CyberSec.cct'. Reward: Gained 12500 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-658529.cct'. Reward: Gained $112.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-308004.cct'. Reward: Gained 3125 reputation for each of the following factions: CyberSec,Netburners,Tian Di Hui,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-69819.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-934125.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-297087.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-714165.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-722158-NiteSec.cct'. Reward: Gained 12500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-223498-NiteSec.cct'. Reward: Gained 2500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-207722.cct'. Reward: Gained 3125 reputation for each of the following factions: CyberSec,Netburners,Tian Di Hui,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-874296-NiteSec.cct'. Reward: Gained 5000 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-126255.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-41552.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-291225.cct'. Reward: Gained $112.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-539656.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-644578.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-349964.cct'. Reward: Gained 1562 reputation for each of the following factions: CyberSec,Netburners,Tian Di Hui,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-251730.cct'. Reward: Gained 6250 reputation for each of the following factions: CyberSec,Netburners,Tian Di Hui,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-742315.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-323276.cct'. Reward: Gained 625 reputation for each of the following factions: CyberSec,Netburners,Tian Di Hui,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-248341.cct'. Reward: Gained 6250 reputation for each of the following factions: CyberSec,Netburners,Tian Di Hui,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-974030.cct'. Reward: Gained $112.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-298997.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-289320.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-541911-CyberSec.cct'. Reward: Gained 25000 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-748298.cct'. Reward: Gained 3125 reputation for each of the following factions: CyberSec,Netburners,Tian Di Hui,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-895985.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-549237.cct'. Reward: Gained $600.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-473524.cct'. Reward: Gained 937 reputation for each of the following factions: CyberSec,Netburners,Tian Di Hui,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-769614.cct'. Reward: Gained $112.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-427921-CyberSec.cct'. Reward: Gained 25000 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-470582.cct'. Reward: Gained 5000 reputation for each of the following factions: CyberSec,Netburners,Tian Di Hui,NiteSec,Volhaven
+codingcontract.attempt: Successfully completed Coding Contract 'contract-111553-CyberSec.cct'. Reward: Gained 12500 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-827745.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-265485.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-499252.cct'. Reward: Gained 833 reputation for each of the following factions: CyberSec,Netburners,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-665092.cct'. Reward: Gained 833 reputation for each of the following factions: CyberSec,Netburners,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-19274.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-669057-NiteSec.cct'. Reward: Gained 5000 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-227693-CyberSec.cct'. Reward: Gained 2500 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-484951.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-6836-Netburners.cct'. Reward: Gained 7500 faction reputation for Netburners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-857466.cct'. Reward: Gained 2083 reputation for each of the following factions: CyberSec,Netburners,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-690571-NWO.cct'. Reward: Gained 12000 company reputation for NWO
+codingcontract.attempt: Successfully completed Coding Contract 'contract-841052-NWO.cct'. Reward: Gained 40000 company reputation for NWO
+codingcontract.attempt: Successfully completed Coding Contract 'contract-431936-NiteSec.cct'. Reward: Gained 6250 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-653407-NWO.cct'. Reward: Gained 12000 company reputation for NWO
+codingcontract.attempt: Successfully completed Coding Contract 'contract-479315.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-698109.cct'. Reward: Gained $600.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-501389-NiteSec.cct'. Reward: Gained 7500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-944302.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-47014.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-785829.cct'. Reward: Gained 833 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-898534.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-565459.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-310482.cct'. Reward: Gained 3125 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-342520.cct'. Reward: Gained 625 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-702966.cct'. Reward: Gained 6250 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-688521.cct'. Reward: Gained 5000 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-791228.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-556603-CyberSec.cct'. Reward: Gained 3750 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-995949-CyberSec.cct'. Reward: Gained 6250 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-231660-CyberSec.cct'. Reward: Gained 12500 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-957119.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-593899-TheBlackHand.cct'. Reward: Gained 12500 faction reputation for The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-858908.cct'. Reward: Gained 1250 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-64399.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-370603-NiteSec.cct'. Reward: Gained 25000 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-322292.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-223121.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-725968.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-913183.cct'. Reward: Gained 4000 reputation for each of the following factions: Slum Snakes,Sector-12,NiteSec,The Black Hand,CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-311220-BitRunners.cct'. Reward: Gained 25000 faction reputation for BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-288187.cct'. Reward: Gained 2083 reputation for each of the following factions: Slum Snakes,Sector-12,NiteSec,The Black Hand,CyberSec,BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-5081.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-93186.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-523459.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-73014.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-323392.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-497506.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,CyberSec,NiteSec,BitRunners,The Black Hand,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-33564.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-279939.cct'. Reward: Gained $112.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-727113.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,CyberSec,NiteSec,BitRunners,The Black Hand,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-810237-NiteSec.cct'. Reward: Gained 7500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-516138-BitRunners.cct'. Reward: Gained 2500 faction reputation for BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-642962-NiteSec.cct'. Reward: Gained 7500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-173166.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,CyberSec,The Black Hand,Daedalus,BitRunners,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-780433.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-389103.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,NiteSec,CyberSec,BitRunners,Daedalus,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-120344.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-808246.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-507371.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,Daedalus,CyberSec,BitRunners,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-617146-NiteSec.cct'. Reward: Gained 5000 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-4614.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,Daedalus,CyberSec,BitRunners,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-634237.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-302220.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-161731.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-842952.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-69348.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-553809.cct'. Reward: Gained 500 reputation for each of the following factions: Slum Snakes,CyberSec,Tetrads,Tian Di Hui,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-391755.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-980968.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-476732-CyberSec.cct'. Reward: Gained 12500 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-391882-NiteSec.cct'. Reward: Gained 25000 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-334377.cct'. Reward: Gained $600.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-89415.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-526435.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-556252-BitRunners.cct'. Reward: Gained 5000 faction reputation for BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-292183.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-546905-TheBlackHand.cct'. Reward: Gained 2500 faction reputation for The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-855048.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-666144.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-358843-NiteSec.cct'. Reward: Gained 2500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-869544-CyberSec.cct'. Reward: Gained 25000 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-964542.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,BitRunners,NiteSec,The Black Hand,CyberSec,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-550690.cct'. Reward: Gained 2083 reputation for each of the following factions: Slum Snakes,BitRunners,NiteSec,The Black Hand,CyberSec,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-465211.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,BitRunners,NiteSec,The Black Hand,CyberSec,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-62310.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-859091.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,BitRunners,NiteSec,The Black Hand,CyberSec,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-835054.cct'. Reward: Gained 4166 reputation for each of the following factions: Slum Snakes,BitRunners,NiteSec,The Black Hand,CyberSec,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-392068.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-280894.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-536406.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-229870.cct'. Reward: Gained 1041 reputation for each of the following factions: Slum Snakes,BitRunners,NiteSec,The Black Hand,CyberSec,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-121659-BitRunners.cct'. Reward: Gained 7500 faction reputation for BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-986490.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-471959.cct'. Reward: Gained $600.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-874870.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-283483-NiteSec.cct'. Reward: Gained 3750 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-677721.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-378052-HeliosLabs.cct'. Reward: Gained 20000 company reputation for Helios Labs
+codingcontract.attempt: Successfully completed Coding Contract 'contract-699394-CyberSec.cct'. Reward: Gained 12500 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-604811-CyberSec.cct'. Reward: Gained 25000 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-487362.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-99930.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-981631.cct'. Reward: Gained 833 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-569781.cct'. Reward: Gained 2500 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-336332-CyberSec.cct'. Reward: Gained 3750 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-988030-CyberSec.cct'. Reward: Gained 7500 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-589696.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-563482.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-965217-NiteSec.cct'. Reward: Gained 7500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-878766.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-949767.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-724362.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-831542.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-279275.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-785339.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-667598.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-680194.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-454041.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-190830.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-536783.cct'. Reward: Gained $112.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-201103-NiteSec.cct'. Reward: Gained 5000 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-981159.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-134076.cct'. Reward: Gained $600.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-707765.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,NiteSec,The Black Hand,BitRunners,CyberSec,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-533989.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-580263.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-92397.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-544399.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-900636.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,CyberSec,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-475576.cct'. Reward: Gained 833 reputation for each of the following factions: NiteSec,CyberSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-393946.cct'. Reward: Gained $750.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-634592-TheBlackHand.cct'. Reward: Gained 5000 faction reputation for The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-432964.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-527539.cct'. Reward: Gained 625 reputation for each of the following factions: CyberSec,NiteSec,The Black Hand,Slum Snakes
+codingcontract.attempt: Successfully completed Coding Contract 'contract-523955.cct'. Reward: Gained 1875 reputation for each of the following factions: CyberSec,NiteSec,The Black Hand,Slum Snakes
+codingcontract.attempt: Successfully completed Coding Contract 'contract-758802-TheBlackHand.cct'. Reward: Gained 7500 faction reputation for The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-716100.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-217621-TheBlackHand.cct'. Reward: Gained 2500 faction reputation for The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-229430.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-210548.cct'. Reward: Gained 1500 reputation for each of the following factions: The Black Hand,NiteSec,CyberSec,BitRunners,Slum Snakes
+codingcontract.attempt: Successfully completed Coding Contract 'contract-151037.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-519507.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-46482-CyberSec.cct'. Reward: Gained 25000 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-234934.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-398374-CyberSec.cct'. Reward: Gained 25000 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-514661.cct'. Reward: Gained $112.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-551294.cct'. Reward: Gained 1250 reputation for each of the following factions: CyberSec,The Black Hand,BitRunners,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-816816.cct'. Reward: Gained $112.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-43648-NiteSec.cct'. Reward: Gained 7500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-954634.cct'. Reward: Gained 3125 reputation for each of the following factions: NiteSec,The Black Hand,BitRunners,CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-659801.cct'. Reward: Gained $75.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-535365.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-120492-TianDiHui.cct'. Reward: Gained 12500 faction reputation for Tian Di Hui
+codingcontract.attempt: Successfully completed Coding Contract 'contract-248094.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-162626.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-339529.cct'. Reward: Gained 416 reputation for each of the following factions: BitRunners,The Black Hand,CyberSec,NiteSec,Tian Di Hui,Sector-12
+codingcontract.attempt: Successfully completed Coding Contract 'contract-70048.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-576377.cct'. Reward: Gained 625 reputation for each of the following factions: The Black Hand,CyberSec,BitRunners,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-959111-NiteSec.cct'. Reward: Gained 12500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-459167-NiteSec.cct'. Reward: Gained 2500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-744896.cct'. Reward: Gained 8333 reputation for each of the following factions: NiteSec,CyberSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-33186.cct'. Reward: Gained $112.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-21091.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-357057.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-966635.cct'. Reward: Gained $225.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-762020.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-236325.cct'. Reward: Gained $375.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-638022.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-274582.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-505536.cct'. Reward: Gained $46.875m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-942992.cct'. Reward: Gained 12500 reputation for each of the following factions: Slum Snakes,CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-949945.cct'. Reward: Gained $37.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-839607.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-631650.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-173871-CyberSec.cct'. Reward: Gained 2500 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-58141-CyberSec.cct'. Reward: Gained 20000 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-790763.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-662319.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-364096.cct'. Reward: Gained $93.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-209960.cct'. Reward: Gained $93.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-298369.cct'. Reward: Gained $46.875m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-401852.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-30014.cct'. Reward: Gained 1666 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-48056.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-552488.cct'. Reward: Gained $37.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-517176.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-799834-CyberSec.cct'. Reward: Gained 6250 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-169842.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-706752.cct'. Reward: Gained 4166 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-538450.cct'. Reward: Gained 8333 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-247075.cct'. Reward: Gained 4166 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-725290.cct'. Reward: Gained 2500 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-495981.cct'. Reward: Gained 1666 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-766510-CyberSec.cct'. Reward: Gained 6250 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-128220.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-558022.cct'. Reward: Gained $46.875m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-121438.cct'. Reward: Gained 1250 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-332011.cct'. Reward: Gained 625 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-584515.cct'. Reward: Gained 3125 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-706284.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-205779.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-45662.cct'. Reward: Gained $37.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-852611-NiteSec.cct'. Reward: Gained 12500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-544309.cct'. Reward: Gained 6250 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-619391.cct'. Reward: Gained $28.125m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-84893.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-172083.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-82097.cct'. Reward: Gained $28.125m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-540583.cct'. Reward: Gained 937 reputation for each of the following factions: Slum Snakes,CyberSec,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-803387.cct'. Reward: Gained $28.125m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-124509.cct'. Reward: Gained $93.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-792446.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,CyberSec,NiteSec,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-184277.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-173625.cct'. Reward: Gained 5000 reputation for each of the following factions: Slum Snakes,CyberSec,NiteSec,The Black Hand,BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-631826.cct'. Reward: Gained $37.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-554953-TheBlackHand.cct'. Reward: Gained 7500 faction reputation for The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-311504.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-683276.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-132771.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-83692-CyberSec.cct'. Reward: Gained 6250 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-422066.cct'. Reward: Gained 1500 reputation for each of the following factions: Slum Snakes,CyberSec,NiteSec,BitRunners,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-361900.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,CyberSec,NiteSec,The Black Hand,BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-443809.cct'. Reward: Gained $93.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-293505.cct'. Reward: Gained 1000 reputation for each of the following factions: Slum Snakes,CyberSec,NiteSec,The Black Hand,BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-761551-TheBlackHand.cct'. Reward: Gained 12500 faction reputation for The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-554708.cct'. Reward: Gained 500 reputation for each of the following factions: Slum Snakes,CyberSec,NiteSec,The Black Hand,BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-239565.cct'. Reward: Gained 2500 reputation for each of the following factions: Slum Snakes,CyberSec,NiteSec,The Black Hand,BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-417084.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-280611.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-33509-BitRunners.cct'. Reward: Gained 12500 faction reputation for BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-198996.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,NiteSec,The Black Hand,CyberSec,BitRunners,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-131551.cct'. Reward: Gained 416 reputation for each of the following factions: Slum Snakes,NiteSec,The Black Hand,CyberSec,BitRunners,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-302084.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-672693.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-349289.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-905616-Daedalus.cct'. Reward: Gained 7500 faction reputation for Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-127960.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-742110.cct'. Reward: Gained 6250 reputation for each of the following factions: Slum Snakes,CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-559246.cct'. Reward: Gained 2500 reputation for each of the following factions: Slum Snakes,CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-866891.cct'. Reward: Gained 3750 reputation for each of the following factions: Slum Snakes,CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-94247-CyberSec.cct'. Reward: Gained 7500 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-533193.cct'. Reward: Gained $93.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-445952.cct'. Reward: Gained $93.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-615592.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-458171.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-663893.cct'. Reward: Gained $37.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-283768.cct'. Reward: Gained 8333 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-489291.cct'. Reward: Gained $93.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-444474.cct'. Reward: Gained 3750 reputation for each of the following factions: CyberSec,Slum Snakes
+codingcontract.attempt: Successfully completed Coding Contract 'contract-512783.cct'. Reward: Gained $28.125m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-618476.cct'. Reward: Gained 2083 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-520009.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-189602.cct'. Reward: Gained 8333 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-259599.cct'. Reward: Gained $28.125m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-29256.cct'. Reward: Gained 3750 reputation for each of the following factions: CyberSec,Slum Snakes
+codingcontract.attempt: Successfully completed Coding Contract 'contract-739136.cct'. Reward: Gained 1250 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-551119.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-821284.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-567730.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-789460-CyberSec.cct'. Reward: Gained 12500 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-384326.cct'. Reward: Gained 4166 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-416363.cct'. Reward: Gained $150.000m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-71329-CyberSec.cct'. Reward: Gained 25000 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-291119.cct'. Reward: Gained 2500 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-166452.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-214524.cct'. Reward: Gained $37.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-579322.cct'. Reward: Gained $28.125m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-855291.cct'. Reward: Gained 1875 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Syndicate
+codingcontract.attempt: Successfully completed Coding Contract 'contract-3209-NiteSec.cct'. Reward: Gained 12500 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-3832-CyberSec.cct'. Reward: Gained 25000 faction reputation for CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-782385-TheSyndicate.cct'. Reward: Gained 25000 faction reputation for The Syndicate
+codingcontract.attempt: Successfully completed Coding Contract 'contract-77962.cct'. Reward: Gained 1500 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Syndicate,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-237994.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-700511.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-663299.cct'. Reward: Gained 1500 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Syndicate,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-644954.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-565050.cct'. Reward: Gained 2500 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Syndicate,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-971153.cct'. Reward: Gained 2500 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Syndicate,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-282325.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-189722.cct'. Reward: Gained 1000 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Syndicate,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-639645.cct'. Reward: Gained 2500 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Syndicate,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-21391.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-540649-NiteSec.cct'. Reward: Gained 5000 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-748026.cct'. Reward: Gained 2500 reputation for each of the following factions: CyberSec,Slum Snakes,NiteSec,The Syndicate,The Black Hand
+codingcontract.attempt: Successfully completed Coding Contract 'contract-339709-NiteSec.cct'. Reward: Gained 5000 faction reputation for NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-939561.cct'. Reward: Gained $56.250m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-947731.cct'. Reward: Gained $46.875m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-9601.cct'. Reward: Gained 1250 reputation for each of the following factions: Slum Snakes,The Black Hand,CyberSec,NiteSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-476274.cct'. Reward: Gained 4000 reputation for each of the following factions: Slum Snakes,BitRunners,The Black Hand,NiteSec,CyberSec
+codingcontract.attempt: Successfully completed Coding Contract 'contract-99663.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-662830.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-297362.cct'. Reward: Gained 416 reputation for each of the following factions: Slum Snakes,BitRunners,The Black Hand,CyberSec,NiteSec,Daedalus
+codingcontract.attempt: Successfully completed Coding Contract 'contract-785914.cct'. Reward: Gained 2083 reputation for each of the following factions: Slum Snakes,CyberSec,The Black Hand,NiteSec,Daedalus,BitRunners
+codingcontract.attempt: Successfully completed Coding Contract 'contract-85394.cct'. Reward: Gained $37.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-108209.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-138684.cct'. Reward: Gained $93.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-545236.cct'. Reward: Gained $18.750m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-981551.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-906099.cct'. Reward: Gained $28.125m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-476908.cct'. Reward: Gained $187.500m
+codingcontract.attempt: Successfully completed Coding Contract 'contract-209562.cct'. Reward: Gained $37.500m

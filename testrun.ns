@@ -1,0 +1,33 @@
+/** @param {NS} ns **/
+
+export async function main(ns) {
+	let hTarget = ns.args[0];
+	let hThreads = Math.floor(ns.hackAnalyzeThreads(hTarget, ns.getServerMaxMoney(hTarget) * .1));
+	ns.tprint(hThreads + " threads to pull " + ns.nFormat(ns.getServerMaxMoney(hTarget) * .1, "$0.00a") + " from " + ns.args[0]);
+	let gThreads = Math.ceil(ns.growthAnalyze(hTarget, 1.12));
+	ns.tprint(gThreads + " to regrow to 100%")
+	let wThreads = Math.ceil((gThreads / 25) + (hThreads / 12.5));
+	ns.tprint(wThreads + " to weaken back to min")
+	let aThreads = hThreads + gThreads + wThreads
+	ns.tprint(aThreads + " total Threads needed, " + aThreads * 1.75 + " GB ram needed")
+	let gTime = ns.getGrowTime(hTarget);
+	let wTime = ns.getWeakenTime(hTarget);
+	let hTime = ns.getHackTime(hTarget);
+	let pTime = 200; //pad of x ms for asleep
+	ns.tprint("wTime: " + wTime);
+	ns.tprint("gTime: " + gTime);
+	ns.tprint("hTime: " + hTime);
+	async function tTime() { return ns.getTimeSinceLastAug(); }
+	while (1) {
+		ns.exec("weak.script", "home", wThreads, hTarget);
+		ns.tprint("TimeStamp:" + ns.getTimeSinceLastAug() + ", Start w now, finishes @ " + (ns.getTimeSinceLastAug() + wTime));
+		await ns.sleep(wTime - gTime - pTime); //sleep to sync time between weaken and grow
+		ns.exec("grow.script", "home", gThreads, hTarget);
+		ns.tprint("TimeStamp:" + ns.getTimeSinceLastAug() + ", Start g now, finishes @ " + (ns.getTimeSinceLastAug() + gTime));
+		await ns.sleep(gTime - hTime - pTime); //sleep to sync time between grow and hack
+		ns.exec("hack.script", "home", hThreads, hTarget);
+		ns.tprint("TimeStamp:" + ns.getTimeSinceLastAug() + ", Start h now, finishes @ " + (ns.getTimeSinceLastAug() + hTime));
+		await ns.sleep(hTime + pTime);
+		ns.tprint("TimeStamp:" + ns.getTimeSinceLastAug() + " wgh complete.")
+	}
+}

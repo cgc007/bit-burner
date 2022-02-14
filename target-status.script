@@ -1,0 +1,11 @@
+var server = args[0];
+var formatServerName = "[" + server + "]";
+var len = formatServerName.length;
+for (len; len < 15; len++) {
+	formatServerName = formatServerName + " ";
+}
+
+while (true) {
+	tprint("INFOStatus" + formatServerName + "\t\t[P:" + getServerNumPortsRequired(server) + "]\t[H:" + getServerRequiredHackingLevel(server) + "]\t[S:" + Math.round(getServerSecurityLevel(server) - (getServerMinSecurityLevel(server) + 5)) + "]\t[" + nFormat(getServerMoneyAvailable(server), '($ 0.00 a)') + "/" + nFormat(getServerMaxMoney(server), '($ 0.00 a)') + " " + nFormat(getServerMoneyAvailable(server) / getServerMaxMoney(server), '0%') + "]");
+	sleep(5000);
+}
