@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
 	let nonautofaction = ["Sector-12", "Chongqing", "New Tokyo", "Ishima", "Aevum", "Volhaven"]
 	let factionJoinable = ns.checkFactionInvitations();

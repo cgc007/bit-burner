@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
 	const factToDonate = "Daedalus"
 	let moneyToDonate = 1e6;

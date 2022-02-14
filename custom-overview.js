@@ -1,6 +1,6 @@
 import { ramUsage } from 'utils.js';
 
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
 	const args = ns.flags([["help", false]]);
 	if (args.help) {

@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
 	/*if (ns.args.length == 0) {
 		return 0;

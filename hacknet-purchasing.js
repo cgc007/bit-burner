@@ -1,4 +1,4 @@
-/** @param {NS} ns **/export async function main(ns) {
+/** @param {import(".").NS} ns */export async function main(ns) {
 	// helpers
 	const getMoney = () => ns.getPlayer().money;
 	const getProd = (level, ram, cores) => (level * 1.5) * Math.pow(1.035, ram - 1) * ((cores + 5) / 6);

@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
 	const testValues = [
 		2.56e0, 2.56e3, 2.56e6,

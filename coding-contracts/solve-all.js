@@ -2,7 +2,7 @@ import { listCodingContracts } from "/coding-contracts/list.js";
 import { hasSolver, solve } from "/coding-contracts/solvers.js";
 import { tlog } from "/lib/logging.js";
 
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
     let contracts = listCodingContracts(ns);
     let solverless = new Set();

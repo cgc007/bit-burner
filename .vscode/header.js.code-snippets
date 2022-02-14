@@ -19,9 +19,9 @@
 	 	"scope": "javascript,typescript",
 	 	"prefix": "log",
 	 	"body": [
-	 		"/** @param {NS} ns **/",
+	 		"/** @param {import(".").NS} ns */",
 			"export async function main(ns) {",
-			"$0",
+			"$1$0",
 			"}"
 	 	],
 	 	"description": "new file creation for bitburner js"

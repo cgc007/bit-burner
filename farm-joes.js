@@ -1,11 +1,11 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 //From: https://playgame.tips/bitburner-intermediate-auto-farm
 export async function main(ns) {
 	ns.disableLog("ALL");
 	var files = ["weak.js", "grow.js", "hack.js"];
-	await ns.write(files[0], "/** @param {NS} ns **/export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.weaken(ns.args[0]); }", "w");
-	await ns.write(files[1], "/** @param {NS} ns **/export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.grow(ns.args[0]); }", "w");
-	await ns.write(files[2], "/** @param {NS} ns **/export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.hack(ns.args[0]); }", "w");
+	await ns.write(files[0], "/** @param {import(".").NS} ns */export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.weaken(ns.args[0]); }", "w");
+	await ns.write(files[1], "/** @param {import(".").NS} ns */export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.grow(ns.args[0]); }", "w");
+	await ns.write(files[2], "/** @param {import(".").NS} ns */export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.hack(ns.args[0]); }", "w");
 	var serverList; var targetList; var hostList; var exes; var temp; var totalRam;
 	var cycle = [0, "─", "\\", "|", "/"]; var latest = [["-", "-"], ["-", "-"], ["-", "-"]];
 	function playerMoney() { return ns.getServerMoneyAvailable("home"); };

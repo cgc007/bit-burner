@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
 	let delayTime = ns.args[0] || 1000;
 	let thresholdMultiplier = ns.args[1] || 1; //Bigger threshold, the less it spends

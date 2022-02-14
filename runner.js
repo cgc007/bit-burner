@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
   ns.disableLog('ALL');
   ns.enableLog('print');
@@ -31,7 +31,7 @@ export async function main(ns) {
 
   if (!options['hack']) {
     await ns.write(hack, `
-      /** @param {NS} ns **/
+      /** @param {import(".").NS} ns */
       export async function main(ns) {
           await ns.hack(ns.args[0]);
       }
@@ -39,7 +39,7 @@ export async function main(ns) {
   }
   if (!options['grow']) {
     await ns.write(grow, `
-      /** @param {NS} ns **/
+      /** @param {import(".").NS} ns */
       export async function main(ns) {
           await ns.grow(ns.args[0]);
       }
@@ -47,7 +47,7 @@ export async function main(ns) {
   }
   if (!options['weaken']) {
     await ns.write(weaken, `
-      /** @param {NS} ns **/
+      /** @param {import(".").NS} ns */
       export async function main(ns) {
           await ns.weaken(ns.args[0]);
       }

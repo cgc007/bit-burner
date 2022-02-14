@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
 	const arr = [1, 2, 3];
 	const iter = arr[Symbol.iterator]();

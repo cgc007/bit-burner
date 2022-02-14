@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 function scan(ns, parent, server, list) {
     const children = ns.scan(server);
     for (let child of children) {

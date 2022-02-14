@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
 	if (ns.getServerMaxRam("kserv-" + ns.args[0]) < ns.args[1]) { //if desired memory > old server memory
 		ns.killall("kserv-" + ns.args[0]);

@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 
 /*
 This should choose to work for the faction that has the highest favor with unpurchased augments

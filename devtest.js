@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 let getProps = (obj) => Object.entries(obj).find(entry => entry[0].startsWith("__reactProps"))[1].children.props;
 let hasPlayer = (obj) => {
 	try {

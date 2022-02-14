@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
 	let servers = ns.getPurchasedServers().concat(["n00dles", "foodnstuff", "sigma-cosmetics", "joesguns", "nectar-net", "hong-fang-tea",
 	"harakiri-sushi", "neo-net", "zer0", "max-hardware", "CSEC", "iron-gym", "omega-net", "silver-helix", "avmnite-02h",

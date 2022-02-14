@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
 	//ns.tprint("#".PadEnd(10,"-") + "Ram".PadEnd(10,"-") + "Ramx25".PadEnd(10,"-") + "$".PadEnd(10,"-") + "$x25".PadEnd(10,"-"));
 	const colSpace = 9;

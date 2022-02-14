@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 //From: https://playgame.tips/bitburner-intermediate-auto-farm
 export async function main(ns) {
 	let backdoorServerList = ["fulcrumassets", "megacorp", "nwo", "blade", "kuai-gong", "ecorp", "fulcrumtech",
@@ -14,7 +14,7 @@ export async function main(ns) {
 	/*["fulcrumassets", "megacorp", "nwo", "ecorp", "fulcrumtech", "clarkinc",
 		"omnitek", "powerhouse-fitness", "stormtech", "b-and-a", "4sigma", "run4theh111z",
 		"I.I.I.I", "avmnite-02h", "CSEC", "n00dles"] */
-
+	
 	ns.disableLog("ALL"); ns.clearLog();//Visual clarity
 	await ns.write("farmlog.txt", "", "w");
 	//Welcome to the Auto Farm part 2: Electric Boogaloo
@@ -27,9 +27,9 @@ export async function main(ns) {
 	*/
 	//New File Creation Method
 	var files = ["weak.js", "grow.js", "hack.js"];
-	await ns.write(files[0], "/** @param {NS} ns **/export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.weaken(ns.args[0]); }", "w");
-	await ns.write(files[1], "/** @param {NS} ns **/export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.grow(ns.args[0]); }", "w");
-	await ns.write(files[2], "/** @param {NS} ns **/export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.hack(ns.args[0]); }", "w");
+	await ns.write(files[0], "/** @param {import(".").NS} ns */export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.weaken(ns.args[0]); }", "w");
+	await ns.write(files[1], "/** @param {import(".").NS} ns */export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.grow(ns.args[0]); }", "w");
+	await ns.write(files[2], "/** @param {import(".").NS} ns */export async function main(ns) { if (ns.args.length > 1 ) { await ns.sleep(ns.args[1]); } await ns.hack(ns.args[0]); }", "w");
 	var serverList; var targetList; var hostList; var exes; var temp; var totalRam;
 	var cycle = [0, "─", "\\", "|", "/"]; var latest = [["-", "-"], ["-", "-"], ["-", "-"]];
 	if (false) { brutessh(); ftpcrack(); relaysmtp(); httpworm(); sqlinject() } //So that the game can calculate the cost before I call them using text, else RAM cost bypass error

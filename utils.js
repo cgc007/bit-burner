@@ -1,6 +1,6 @@
 import { list_servers } from 'opened-servers.js';
 
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function runHackScript(ns, script, host, threads, target) {
 	if (!ns.fileExists(script, host)) {
 		await ns.scp(script, host);
@@ -8,7 +8,7 @@ export async function runHackScript(ns, script, host, threads, target) {
 	return Promise.resolve(ns.exec(script, host, threads, target, Math.random()));
 }
 
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export function getHosts(ns, scriptRam) {
 	const openedServers = list_servers(ns).filter(s => ns.hasRootAccess(s) && ns.getServerMaxRam(s) > 1);
 	const s = ns.getServer('home');

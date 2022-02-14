@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 export async function main(ns) {
 	var serverCounter = ns.getPurchasedServers();
 	var k; var l;

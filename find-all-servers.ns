@@ -1,4 +1,4 @@
-/** @param {NS} ns **/
+/** @param {import(".").NS} ns */
 async function scanServers() {//Puts all unique servers into serverList
 	serverList = ns.scan("home"); let serverCount = [serverList.length, 0]; let depth = 0; let checked = 0; let scanIndex = 0;
 	while (scanIndex <= serverCount[depth] - 1) {
