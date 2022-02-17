@@ -42,7 +42,7 @@ export async function main(ns) {
 			values.push((ramUsage(ns) * 100).toFixed(1) + '%');
 
 			headers.push("Free Ram");
-			values.push(ns.nFormat(ns.getServerMaxRam() - ns.getServerUsedRam(),"0.0b"));
+			values.push(ns.nFormat((ns.getServerMaxRam("home") - ns.getServerUsedRam("home"))*1e9,"0.0b"));
 
 			headers.push("Karma");
 			values.push(ns.heart.break().toFixed(0));

@@ -19,7 +19,7 @@
 	 	"scope": "javascript,typescript",
 	 	"prefix": "log",
 	 	"body": [
-	 		"/** @param {import(".").NS} ns */",
+	 		"/** @param {import('.').NS} ns */",
 			"export async function main(ns) {",
 			"$1$0",
 			"}"

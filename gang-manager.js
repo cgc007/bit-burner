@@ -120,10 +120,16 @@ export async function main(ns) {
 				//}
 			}
 		}
+		
 		taskList = arraySort(taskList);
 		//ns.tprint(`Attempting to set ${member} to ${taskList[0][1]}.\n${JSON.stringify(taskList)}`)
 		return (taskList[0][1]);
 
+	}
+
+	function timeToAscend(member) {
+		let memInfo = ns.gang.getMemberInformation(member);
+		
 	}
 	//ns.gang.getTaskNames(); instead of calling this I'll define the array myself to save 2GB
 	let gangTasks = [
@@ -141,7 +147,7 @@ export async function main(ns) {
 		"Train Hacking",
 		"Train Charisma",
 		"Territory Warfare"];
-	let ascMaxMult = 15; let gangMembers = ns.gang.getMemberNames(); let gangInfo = ns.gang.getGangInformation();
+    let gangMembers = ns.gang.getMemberNames(); let gangInfo = ns.gang.getGangInformation();
 	let oGangInfo = ns.gang.getOtherGangInformation();
 	let clashChances = [];
 	let powerAmounts = [];
@@ -184,9 +190,9 @@ export async function main(ns) {
 			oPowerChange = Math.max(...powerAmounts) - Math.max(...oPowerAmounts);
 		}
 		ns.clearLog();
-		//should be 5 ticks/sec, if there are less than 5m to get another member get one 
-		//5m is 300s, 1500 ticks
-
+		
+		//should be 5 ticks/sec, if there are less than 10m for one member to get another member get one 
+		//5m is 600s, 3000 ticks
 		for (let i = 0; i < gangMembers.length; i++) {
 			let memInfo = ns.gang.getMemberInformation(gangMembers[i]);
 			let ticksToNextMember = respectForNextGangMember() / ns.formulas.gang.respectGain(gangInfo, memInfo, ns.gang.getTaskStats(getBestTask("respect", gangMembers[i])));
@@ -194,17 +200,16 @@ export async function main(ns) {
 			buyEquipment(gangMembers[i], "Baseball Bat");
 			buyEquipment(gangMembers[i], "Katana");
 			buyEquipment(gangMembers[i], "Glock 18C");
-			if (memInfo.str_asc_mult >= ascMaxMult) {
-				let eqList = ns.gang.getEquipmentNames();
-				for (let x = 0; x < eqList.length; x++) {
-					buyEquipment(gangMembers[i], eqList[x]);
-				}
-				//buyEquipment(gangMembers[i], "Baseball Bat");
+			let eqList = ns.gang.getEquipmentNames();
+			for (let x = 0; x < eqList.length; x++) {
+				buyEquipment(gangMembers[i], eqList[x]);
 			}
+			//buyEquipment(gangMembers[i], "Baseball Bat");
+			
 			let ascRes = ns.gang.getAscensionResult(gangMembers[i]);
 
-			if ((ascRes != undefined && ascRes.str > 1.6 && memInfo.str_asc_mult < ascMaxMult) ||
-				(ascRes != undefined && ascRes.str > 1.1 && memInfo.str_asc_mult < ascMaxMult && memInfo.str_asc_mult > 5) &&
+			if (ascRes != undefined && ascRes.str > 1.6 ||
+				(ascRes != undefined && ascRes.str > 1.1 && memInfo.str_asc_mult > 5) &&
 				memInfo.earnedRespect < gangInfo.respect) {
 				//Ascend the members as needed when they pass thresholds of mults, but not if they have all 
 				//the respect in the gang themselves, this should stagger ascends so we don't wipe out respect
@@ -225,7 +230,7 @@ export async function main(ns) {
 			} else if (memInfo.str >= 170 && (gangMembers.length < 5 || (gangMembers.length < 12 && ticksToNextMember < 3000))) {
 				//maximize respect growth for gang growth to 5 people
 				doBestTask("respect", gangMembers[i]);
-			} else if (memInfo.str <= 500 || memInfo.str_asc_mult < ascMaxMult) {
+			} else if (memInfo.str <= 500) {
 				//Train stats to ascend
 				taskSwitch(gangMembers[i], "Train Combat");
 			} else {
