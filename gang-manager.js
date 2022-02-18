@@ -29,10 +29,15 @@ export async function main(ns) {
 		"Singed", //22
 		"Archon", //23
 		"Burnt", //24
-		"Toast"] //25
-	function arraySort(array) { return array.sort(function (a, b) { return b[0] - a[0] }) }//Sorts nested arrays based on first number [[1,5],[4,2]], used on targetList and hostList
+		"Toast",
+	]; //25
+	function arraySort(array) {
+		return array.sort(function (a, b) {
+			return b[0] - a[0];
+		});
+	} //Sorts nested arrays based on first number [[1,5],[4,2]], used on targetList and hostList
 	function respectForNextGangMember() {
-		let numMembers = ns.gang.getMemberNames().length
+		let numMembers = ns.gang.getMemberNames().length;
 
 		if (numMembers < 12) {
 			return Math.pow(5, numMembers - 2) - ns.gang.getGangInformation().respect;
@@ -40,20 +45,22 @@ export async function main(ns) {
 		return 0;
 	}
 	function buyEquipment(mbrName, equipName) {
-		//If equipment grants any combat stat, 
+		//If equipment grants any combat stat,
 		//we don't have it, and it costs less than 1% of our money, buy it
-		if ((ns.gang.getEquipmentStats(equipName).str > 0 ||
-			ns.gang.getEquipmentStats(equipName).def > 0 ||
-			ns.gang.getEquipmentStats(equipName).dex > 0) &&
-			ns.gang.getEquipmentCost(equipName) < ns.getServerMoneyAvailable("home") * .01 &&
+		if (
+			(ns.gang.getEquipmentStats(equipName).str > 0 || ns.gang.getEquipmentStats(equipName).def > 0 || ns.gang.getEquipmentStats(equipName).dex > 0) &&
+			ns.gang.getEquipmentCost(equipName) < ns.getServerMoneyAvailable("home") * 0.01 &&
 			!ns.gang.getMemberInformation(mbrName).upgrades.includes(equipName) &&
-			!ns.gang.getMemberInformation(mbrName).augmentations.includes(equipName)) {
+			!ns.gang.getMemberInformation(mbrName).augmentations.includes(equipName)
+		) {
 			return ns.gang.purchaseEquipment(mbrName, equipName);
 		}
 	}
 	function taskSwitch(p, q) {
 		let memInfo = ns.gang.getMemberInformation(p);
-		if (!memInfo.task.includes(q)) { return ns.gang.setMemberTask(p, q); }
+		if (!memInfo.task.includes(q)) {
+			return ns.gang.setMemberTask(p, q);
+		}
 	}
 	function doBestTask(type, member) {
 		//types are money, respect, wantedLevel
@@ -78,8 +85,7 @@ export async function main(ns) {
 			for (let checkTask of gangTasks) {
 				//if (checkTask != "unassigned") {
 				const taskStat = ns.gang.getTaskStats(checkTask);
-				const gain = ns.formulas.gang.respectGain(gangInfo, memberInfo, taskStat) /
-					ns.formulas.gang.wantedLevelGain(gangInfo, memberInfo, taskStat)
+				const gain = ns.formulas.gang.respectGain(gangInfo, memberInfo, taskStat) / ns.formulas.gang.wantedLevelGain(gangInfo, memberInfo, taskStat);
 				taskList.push([gain, checkTask]);
 				//ns.tprint(`type: ${type + "Gain"}\nmember: ${member}\ngangInfo: ${JSON.stringify(gangInfo)}\nmemberInfo: ${JSON.stringify(memberInfo)}\ncheckTask: ${checkTask}\n`);
 				//}
@@ -88,7 +94,6 @@ export async function main(ns) {
 		taskList = arraySort(taskList);
 		//ns.tprint(`Attempting to set ${member} to ${taskList[0][1]}.\n${JSON.stringify(taskList)}`)
 		taskSwitch(member, taskList[0][1]);
-
 	}
 	function getBestTask(type, member) {
 		//types are money, respect, wantedLevel
@@ -113,23 +118,20 @@ export async function main(ns) {
 			for (let checkTask of gangTasks) {
 				//if (checkTask != "unassigned") {
 				const taskStat = ns.gang.getTaskStats(checkTask);
-				const gain = ns.formulas.gang.respectGain(gangInfo, memberInfo, taskStat) /
-					ns.formulas.gang.wantedLevelGain(gangInfo, memberInfo, taskStat)
+				const gain = ns.formulas.gang.respectGain(gangInfo, memberInfo, taskStat) / ns.formulas.gang.wantedLevelGain(gangInfo, memberInfo, taskStat);
 				taskList.push([gain, checkTask]);
 				//ns.tprint(`type: ${type + "Gain"}\nmember: ${member}\ngangInfo: ${JSON.stringify(gangInfo)}\nmemberInfo: ${JSON.stringify(memberInfo)}\ncheckTask: ${checkTask}\n`);
 				//}
 			}
 		}
-		
+
 		taskList = arraySort(taskList);
 		//ns.tprint(`Attempting to set ${member} to ${taskList[0][1]}.\n${JSON.stringify(taskList)}`)
-		return (taskList[0][1]);
-
+		return taskList[0][1];
 	}
 
 	function timeToAscend(member) {
 		let memInfo = ns.gang.getMemberInformation(member);
-		
 	}
 	//ns.gang.getTaskNames(); instead of calling this I'll define the array myself to save 2GB
 	let gangTasks = [
@@ -146,8 +148,10 @@ export async function main(ns) {
 		"Train Combat",
 		"Train Hacking",
 		"Train Charisma",
-		"Territory Warfare"];
-    let gangMembers = ns.gang.getMemberNames(); let gangInfo = ns.gang.getGangInformation();
+		"Territory Warfare",
+	];
+	let gangMembers = ns.gang.getMemberNames();
+	let gangInfo = ns.gang.getGangInformation();
 	let oGangInfo = ns.gang.getOtherGangInformation();
 	let clashChances = [];
 	let powerAmounts = [];
@@ -167,7 +171,8 @@ export async function main(ns) {
 		oGangInfo = ns.gang.getOtherGangInformation();
 
 		for (let gangName in oGangInfo) {
-			if (oGangInfo[gangName].power != prevCycleoGangInfo[gangName].power) { //we found the tick +- the asleep time
+			if (oGangInfo[gangName].power != prevCycleoGangInfo[gangName].power) {
+				//we found the tick +- the asleep time
 				tickTime = ns.getTimeSinceLastAug() + 20000;
 			}
 		}
@@ -175,7 +180,8 @@ export async function main(ns) {
 		powerAmounts = [];
 		oPowerAmounts = [];
 		for (let gangName in oGangInfo) {
-			if (gangName != gangInfo.faction) { //Ensure we're not gathering info about ourselves
+			if (gangName != gangInfo.faction) {
+				//Ensure we're not gathering info about ourselves
 
 				//if (gangName.territory > 0) { //We only care about other gangs with territory remaining
 				//ns.print(gangName + " %: " + ns.gang.getChanceToWinClash(gangName).toPrecision(3));
@@ -190,13 +196,16 @@ export async function main(ns) {
 			oPowerChange = Math.max(...powerAmounts) - Math.max(...oPowerAmounts);
 		}
 		ns.clearLog();
-		
-		//should be 5 ticks/sec, if there are less than 10m for one member to get another member get one 
+
+		//should be 5 ticks/sec, if there are less than 10m for one member to get another member get one
 		//5m is 600s, 3000 ticks
 		for (let i = 0; i < gangMembers.length; i++) {
 			let memInfo = ns.gang.getMemberInformation(gangMembers[i]);
-			let ticksToNextMember = respectForNextGangMember() / ns.formulas.gang.respectGain(gangInfo, memInfo, ns.gang.getTaskStats(getBestTask("respect", gangMembers[i])));
-			let respectWantedRatio = ns.formulas.gang.respectGain(gangInfo, memInfo, ns.gang.getTaskStats(getBestTask("respect", gangMembers[i]))) / ns.formulas.gang.wantedLevelGain(gangInfo, memInfo, ns.gang.getTaskStats(getBestTask("respect", gangMembers[i])));
+			let ticksToNextMember =
+				respectForNextGangMember() / ns.formulas.gang.respectGain(gangInfo, memInfo, ns.gang.getTaskStats(getBestTask("respect", gangMembers[i])));
+			let respectWantedRatio =
+				ns.formulas.gang.respectGain(gangInfo, memInfo, ns.gang.getTaskStats(getBestTask("respect", gangMembers[i]))) /
+				ns.formulas.gang.wantedLevelGain(gangInfo, memInfo, ns.gang.getTaskStats(getBestTask("respect", gangMembers[i])));
 			buyEquipment(gangMembers[i], "Baseball Bat");
 			buyEquipment(gangMembers[i], "Katana");
 			buyEquipment(gangMembers[i], "Glock 18C");
@@ -205,41 +214,54 @@ export async function main(ns) {
 				buyEquipment(gangMembers[i], eqList[x]);
 			}
 			//buyEquipment(gangMembers[i], "Baseball Bat");
-			
+
 			let ascRes = ns.gang.getAscensionResult(gangMembers[i]);
 
-			if (ascRes != undefined && ascRes.str > 1.6 ||
-				(ascRes != undefined && ascRes.str > 1.1 && memInfo.str_asc_mult > 5) &&
-				memInfo.earnedRespect < gangInfo.respect) {
-				//Ascend the members as needed when they pass thresholds of mults, but not if they have all 
+			if (
+				(ascRes != undefined && ascRes.str > 1.6) ||
+				(ascRes != undefined && ascRes.str > 1.1 && memInfo.str_asc_mult > 5 && memInfo.earnedRespect < gangInfo.respect * 0.95)
+			) {
+				//Ascend the members as needed when they pass thresholds of mults, but not if they have all
 				//the respect in the gang themselves, this should stagger ascends so we don't wipe out respect
 				ns.gang.ascendMember(gangMembers[i]);
 			}
-
-
-
 
 			//doBestTask([type] can be "money", "respect", "wantedLevel", [gangMemberName])
 			if (gangInfo.territory > 0 && tickTime >= 0 && cycleTime + sleepAmount * 5 >= tickTime && cycleTime < tickTime && gangInfo.territory < 1) {
 				//grow the power of our gang right before the tick and cycle back to something different after
 				taskSwitch(gangMembers[i], "Territory Warfare");
-			} else if (respectWantedRatio < 1 && gangInfo.wantedLevel * 2 > gangInfo.respect && gangInfo.wantedLevel > 5 && (memInfo.str >= 170 && gangInfo.wantedPenalty < .75) || (memInfo.task == "Vigilante Justice" && gangInfo.wantedPenalty < .9999 && gangInfo.wantedLevel > 5)) { // && memInfo.str >= 170 && gangInfo.wantedLevel * 4 > gangInfo.respect) {
+			} else if (
+				(respectWantedRatio < 1 &&
+					gangInfo.wantedLevel * 2 > gangInfo.respect &&
+					gangInfo.wantedLevel > 5 &&
+					memInfo.respect > 1e3 &&
+					memInfo.str >= 170 &&
+					gangInfo.wantedPenalty < 0.75) ||
+				(memInfo.task == "Vigilante Justice" && gangInfo.wantedPenalty < 0.9999 && gangInfo.wantedLevel > 5)
+			) {
+				// && memInfo.str >= 170 && gangInfo.wantedLevel * 4 > gangInfo.respect) {
 				//maximize wanted reduction
 				//doBestTask("wantedLevel", gangMembers[i]);
 				taskSwitch(gangMembers[i], "Vigilante Justice");
 			} else if (memInfo.str >= 170 && (gangMembers.length < 5 || (gangMembers.length < 12 && ticksToNextMember < 3000))) {
 				//maximize respect growth for gang growth to 5 people
 				doBestTask("respect", gangMembers[i]);
-			} else if (memInfo.str <= 500) {
+			} else if (memInfo.str <= 1500 || memInfo.str_asc_mult < 9.75) {
 				//Train stats to ascend
 				taskSwitch(gangMembers[i], "Train Combat");
 			} else {
 				//maximize cash growth
 				doBestTask("money", gangMembers[i]);
 			}
-			ns.print(gangMembers[i].padStart(9, " ") + "(SAM): " + ns.nFormat(memInfo.str_asc_mult, "0.00").padEnd(8) + memInfo.task.padEnd(22) + ns.nFormat(ticksToNextMember, "0").padEnd(5));
+			ns.print(
+				gangMembers[i].padStart(9, " ") +
+					"(SAM): " +
+					ns.nFormat(memInfo.str_asc_mult, "0.00").padEnd(8) +
+					memInfo.task.padEnd(22) +
+					ns.nFormat(ticksToNextMember, "0").padEnd(5)
+			);
 		}
-		if (Math.min(...clashChances) > .65 && gangInfo.power > Math.max(...powerAmounts) && myPowerChange > oPowerChange) {
+		if (Math.min(...clashChances) > 0.65 && gangInfo.power > Math.max(...powerAmounts) && myPowerChange > oPowerChange) {
 			ns.gang.setTerritoryWarfare(true);
 		}
 		if (ns.gang.canRecruitMember()) {
@@ -251,18 +273,28 @@ export async function main(ns) {
 					break;
 				}
 			}
-
-
 		}
 		if (gangInfo.territory > 0) {
 			ns.print("Territory: " + ns.nFormat(gangInfo.territory, "0.00%"));
-		} else { ns.print("Territory has been wiped out."); }
+		} else {
+			ns.print("Territory has been wiped out.");
+		}
 		ns.print("Min Clash %: " + ns.nFormat(Math.min(...clashChances), "0.00%"));
-		ns.print("Their power/My power: " + ns.nFormat(Math.max(...powerAmounts),"0.00") + " [" + ns.nFormat(oPowerChange,"0.00") + "] / " + ns.nFormat(gangInfo.power,"0.00") + " [" + ns.nFormat(myPowerChange,"0.00") + "]");
+		ns.print(
+			"Their power/My power: " +
+				ns.nFormat(Math.max(...powerAmounts), "0.00") +
+				" [" +
+				ns.nFormat(oPowerChange, "0.00") +
+				"] / " +
+				ns.nFormat(gangInfo.power, "0.00") +
+				" [" +
+				ns.nFormat(myPowerChange, "0.00") +
+				"]"
+		);
 		//ns.print("Clash Array: " + clashChances);
 		ns.print("MGR: " + ns.nFormat(gangInfo.moneyGainRate * 5, "$0.0a"));
 		ns.print("WP: " + ns.nFormat((1 - gangInfo.wantedPenalty) * -1, "0.00%"));
-		ns.print("Time: " + cycleTime % 20000 + "/" + tickTime % 20000 + " (" + sleepAmount + ")");
+		ns.print("Time: " + (cycleTime % 20000) + "/" + (tickTime % 20000) + " (" + sleepAmount + ")");
 		await ns.asleep(sleepAmount);
 		//ns.gang.getEquipmentNames()
 	}

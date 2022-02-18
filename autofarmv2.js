@@ -283,24 +283,26 @@ export async function main(ns) {
 		hostList = arraySort(hostList); //Pushes to home to hostList and sorts by amount of RAM
 		for (let i = 0; i <= serverList.length - 1; i++) {
 			let cTarget = serverList[i];
-			if (
-				(ns.getServerNumPortsRequired(cTarget) <= exes.length || ns.hasRootAccess(cTarget)) &&
-				backdoorServerList.includes(cTarget) &&
-				ns.getHackingLevel() >= ns.getServerRequiredHackingLevel(cTarget) &&
-				!ns.getServer(cTarget).backdoorInstalled
-			) {
+			if (ns.getServerNumPortsRequired(cTarget) <= exes.length && ns.getHackingLevel() >= ns.getServerRequiredHackingLevel(cTarget)) {
 				for (let i = 0; i <= exes.length - 1; i++) {
 					ns[exes[i].toLowerCase()](cTarget);
 				} //Runs all EXEs you have against it to open ports
 				ns.nuke(cTarget); //Ghandi.jpeg
-				let backdoorRam = ns.getScriptRam("install-backdoor.js", "home");
-				if (backdoorRam > 0 && backdoorRam < ns.getServerMaxRam("home") - ns.getServerUsedRam("home") && !backdoorThisLoop) {
-					ns.exec("install-backdoor.js", "home", 1, cTarget);
-				} else {
-					backdoorThisLoop = true;
-				}
 			}
-			if (ns.getServerMoneyAvailable(cTarget) > 0 || (ns.getServerMaxRam(cTarget) > 2 && ns.hasRootAccess(cTarget))) {
+			let backdoorRam = ns.getScriptRam("install-backdoor.js", "home");
+			if (
+				backdoorRam > 0 &&
+				backdoorRam < ns.getServerMaxRam("home") - ns.getServerUsedRam("home") &&
+				!ns.getServer(cTarget).backdoorInstalled &&
+				!backdoorThisLoop &&
+				ns.hasRootAccess(cTarget)
+			) {
+				ns.exec("install-backdoor.js", "home", 1, cTarget);
+			} else {
+				backdoorThisLoop = true;
+			}
+
+			if (ns.hasRootAccess(cTarget) && (ns.getServerMoneyAvailable(cTarget) > 0 || ns.getServerMaxRam(cTarget) > 2)) {
 				//Continues if server has either money or RAM, filters out servers like darkweb
 				temp = [Math.floor([(ns.getServerMaxMoney(cTarget) * 1000) / ns.getServerMinSecurityLevel(cTarget)] / ns.getHackTime(cTarget)), cTarget];
 				if (ns.getServerMoneyAvailable(cTarget) != 0 && !targetList.includes(cTarget) && ns.getServerRequiredHackingLevel(cTarget) <= ns.getHackingLevel()) {
