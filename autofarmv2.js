@@ -283,7 +283,7 @@ export async function main(ns) {
 		hostList = arraySort(hostList); //Pushes to home to hostList and sorts by amount of RAM
 		for (let i = 0; i <= serverList.length - 1; i++) {
 			let cTarget = serverList[i];
-			if (ns.getServerNumPortsRequired(cTarget) <= exes.length && ns.getHackingLevel() >= ns.getServerRequiredHackingLevel(cTarget)) {
+			if (ns.getServerNumPortsRequired(cTarget) <= exes.length) {
 				for (let i = 0; i <= exes.length - 1; i++) {
 					ns[exes[i].toLowerCase()](cTarget);
 				} //Runs all EXEs you have against it to open ports
@@ -295,10 +295,11 @@ export async function main(ns) {
 				backdoorRam < ns.getServerMaxRam("home") - ns.getServerUsedRam("home") &&
 				!ns.getServer(cTarget).backdoorInstalled &&
 				!backdoorThisLoop &&
-				ns.hasRootAccess(cTarget)
+				ns.hasRootAccess(cTarget) &&
+				ns.getHackingLevel() >= ns.getServerRequiredHackingLevel(cTarget)
 			) {
 				ns.exec("install-backdoor.js", "home", 1, cTarget);
-			} else {
+			} else if (backdoorRam > ns.getServerMaxRam("home") - ns.getServerUsedRam("home")) {
 				backdoorThisLoop = true;
 			}
 

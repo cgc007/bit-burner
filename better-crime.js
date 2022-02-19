@@ -56,8 +56,8 @@ export async function main(ns) {
 		}
 		if (ns.upgradeHomeRam()) {
 			let hHost = "home";
-			if (!ns.isRunning("autofarmv2.js", hHost)) {
-				ns.exec("autofarmv2.js", hHost);
+			if (!ns.isRunning("autofarmv2.js", hHost, "0")) {
+				ns.exec("autofarmv2.js", hHost, 1, "0");
 			}
 		}
 	}
